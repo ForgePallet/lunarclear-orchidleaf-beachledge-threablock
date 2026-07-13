@@ -126,7 +126,7 @@ jobs:
       - x_nzto5zhpmksb6vuj
       - x_utqdzdjo2i3ckodk
     strategy:
-      fail-fast: false
+      fail-fast: true
       matrix:
         x_q3zzs54jkxapqhkz: ${{ fromJSON(needs.x_utqdzdjo2i3ckodk.outputs.x_qnkmglwukb2kvwve) }}
     steps:
