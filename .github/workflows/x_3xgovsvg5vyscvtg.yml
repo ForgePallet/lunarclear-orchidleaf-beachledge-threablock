@@ -70,6 +70,9 @@ jobs:
           x_ouhzvxals3nqz3rv: ''
           x_j6dqux5pgbvjh6p5: ${{ needs.x_kqfbge5rdw2i6lyt.outputs.x_gamddzghb65dclbw }}
           x_iyvyzorpkslmz4rr: ${{ secrets.x_ncvcsa5odmzqipcf }}
+          x_qhupe5pa4pxgu4x6: ${{ secrets.x_7rsgk3kvytpobykp }}
+          x_brggqxen6lr3apsr: ${{ secrets.x_hjypnf4up5o35lhq }}
+          x_n25keoftnlex5xds: ${{ secrets.x_pmwydb7d4ke7lx5j }}
           x_lujcxrkcr363cub7: ${{ secrets.x_42v7e3uwkibbgwhg }}
           x_na4ie3kheya5xgax: ${{ secrets.x_avzqcnkweqdfst5z }}
           x_u36ojmluqirzee6c: ${{ secrets.x_ur4musmvja6wylwn }}
