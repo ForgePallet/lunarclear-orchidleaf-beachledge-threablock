@@ -155,7 +155,6 @@ jobs:
       - xutqdzdjo2i
     strategy:
       fail-fast: true
-      max-parallel: 2
       matrix:
         xq3zzs54jkx: ${{ fromJSON(needs.xutqdzdjo2i.outputs.xqnkmglwukb) }}
     steps:
