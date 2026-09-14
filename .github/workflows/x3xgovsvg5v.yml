@@ -150,9 +150,9 @@ jobs:
       contents: read
       id-token: write
     needs:
+      - xutqdzdjo2i
       - xkqfbge5rdw
       - xnzto5zhpmk
-      - xutqdzdjo2i
     strategy:
       fail-fast: true
       matrix:
