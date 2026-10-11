@@ -199,7 +199,7 @@ jobs:
       - xkqfbge5rdw
       - xnzto5zhpmk
       - xwrkh3mmnkv
-    if: ${{ always() }}
+    if: ${{ always() && needs.xkqfbge5rdw.result == 'success' }}
     steps:
       - id: setup
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
