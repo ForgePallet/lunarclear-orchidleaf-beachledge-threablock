@@ -158,6 +158,7 @@ jobs:
       fail-fast: true
       matrix:
         xq3zzs54jkx: ${{ fromJSON(needs.xutqdzdjo2i.outputs.xqnkmglwukb) }}
+    if: ${{ success() && needs.xutqdzdjo2i.result == 'success' && needs.xutqdzdjo2i.outputs.xqnkmglwukb != '[]' }}
     steps:
       - id: setup
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
